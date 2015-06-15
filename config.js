@@ -17,6 +17,7 @@ System.config({
     "arva-mvc": "github:Bizboard/arva-mvc@develop",
     "arva-utils": "github:bizboard/arva-utils@master",
     "di.js": "github:Bizboard/di.js@master",
+    "eventemitter3": "npm:eventemitter3@1.1.1",
     "famous": "npm:famous@0.3.5",
     "famous-flex": "github:ijzerenhein/famous-flex@0.3.2",
     "lodash": "npm:lodash@3.9.3",

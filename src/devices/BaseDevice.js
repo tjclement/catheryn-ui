@@ -2,11 +2,13 @@
  * Created by tom on 02/06/15.
  */
 
+import EventEmitter             from 'eventemitter3';
 import {ObjectHelper}           from 'arva-utils/ObjectHelper';
 
-export class BaseDevice {
+export class BaseDevice extends EventEmitter {
 
     constructor(){
+        super();
         ObjectHelper.bindAllMethods(this, this);
     }
 

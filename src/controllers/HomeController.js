@@ -12,14 +12,14 @@ export class HomeController extends Controller {
 
         window.devices = this.devices = {
             'Lighting': {
-                type: DimmableLight,
+                type: 'DimmableLight',
                 devices: [
                     new DimmableLight('Living Room', '10.0.3.29')
                 ]
             }
         };
 
-        this.mainView = new HomeView();
+        this.mainView = new HomeView(this.devices);
     }
 
     Main() {
